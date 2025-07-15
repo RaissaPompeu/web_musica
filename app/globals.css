@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* alinha no centro horizontal */
+  align-items: center;     /* alinha no centro vertical */
+  background-color: #0f103e;
+  color: rgb(200, 199, 206)
+}
+
+h1{
+  text-align: center;
+  font-size: 3vw;
+  color: white;
+}
+form {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+input {
+  border: 1px solid #aaa;
+  padding: 8px;
+  margin: 8px 0;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #111240;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  display: block;      /* faz o botão ocupar linha própria */
+  margin: 20px auto 0 auto;  /* centraliza horizontalmente e dá margem superior */
+}
+
+
+button:hover {
+  background-color: #000000;
+}
